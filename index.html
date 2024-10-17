@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTOFOLIO Assesment 4</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-slate-200">
+    <header class="w-full bg-[#333] text-white p-3">
+      <nav class="flex justify-end">
+        <ul class="w-[30%] flex justify-around">
+          <li>
+            <a class="hover:border-b-2 hover:border-white" href="">HOME</a>
+          </li>
+          <li>
+            <a class="hover:border-b-2 hover:border-white" href="">PRODUCT</a>
+          </li>
+          <li>
+            <a class="hover:border-b-2 hover:border-white" href="">GALLERY</a>
+          </li>
+          <li>
+            <a class="hover:border-b-2 hover:border-white" href="">BLOG</a>
+          </li>
+          <li>
+            <a class="hover:border-b-2 hover:border-white" href="">INVENTORY</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="flex m-3 p-3 bg-white">
+        <section class="">
+          <img
+            class="w-[200px] rounded-2xl"
+            src="https://picsum.photos/200/300?grayscale"
+            alt=""
+          />
+        </section>
+
+        <section class="flex flex-col justify-center gap-3 mx-5">
+          <div>
+            <h1 class="text-2xl" id="name"></h1>
+            <p class="text-xl" id="role"></p>
+          </div>
+
+          <section class="flex gap-3">
+            <button class="bg-green-400 px-4 py-1 rounded-xl" id="btnEdit">
+              Edit
+            </button>
+            <button class="bg-cyan-400 px-4 py-1 rounded-xl">Resume</button>
+          </section>
+        </section>
+
+        <section class="w-[50%] flex ml-[100px]">
+          <section class="flex flex-col justify-center">
+            <h4 class="text-lg font-bold">Availability</h4>
+            <h4 class="text-lg font-bold">Usia</h4>
+            <h4 class="text-lg font-bold">Lokasi</h4>
+            <h4 class="text-lg font-bold">Pengalaman</h4>
+            <h4 class="text-lg font-bold">Email</h4>
+          </section>
+          <section class="flex flex-col justify-center ml-5">
+            <p class="text-lg" id="availability"></p>
+            <p class="text-lg" id="usia"></p>
+            <p class="text-lg" id="lokasi"></p>
+            <p class="text-lg" id="pengalaman"></p>
+            <p class="text-lg" id="email"></p>
+          </section>
+        </section>
+      </section>
+
+      <section
+        class="w-[50%] bg-white hidden flex-col mx-auto p-3"
+        id="containerForm"
+      >
+        <section>
+          <h4>Nama</h4>
+          <input
+            class="w-full border border-slate-400 rounded-xl p-1"
+            type="text"
+            id="inputName"
+          />
+        </section>
+        <section>
+          <h4>Role</h4>
+          <input
+            class="w-full border border-slate-400 rounded-xl p-1"
+            type="text"
+            id="inputRole"
+          />
+        </section>
+        <section>
+          <h4>Availability</h4>
+          <input
+            class="w-full border border-slate-400 rounded-xl p-1"
+            type="text"
+            id="inputAvailability"
+          />
+        </section>
+        <section>
+          <h4>Usia</h4>
+          <input
+            class="w-full border border-slate-400 rounded-xl p-1"
+            type="text"
+            id="inputUsia"
+          />
+        </section>
+        <section>
+          <h4>Lokasi</h4>
+          <input
+            class="w-full border border-slate-400 rounded-xl p-1"
+            type="text"
+            id="inputLokasi"
+          />
+        </section>
+        <section>
+          <h4>Pengalaman</h4>
+          <input
+            class="w-full border border-slate-400 rounded-xl p-1"
+            type="text"
+            id="inputPengalaman"
+          />
+        </section>
+        <section>
+          <h4>Email</h4>
+          <input
+            class="w-full border border-slate-400 rounded-xl p-1"
+            type="text"
+            id="inputEmail"
+          />
+        </section>
+        <button class="bg-blue-400 px-4 py-1 rounded-xl mt-4" id="btnSubmit">
+          Submit
+        </button>
+      </section>
+
+      <script type="module" src="index.js"></script>
+    </main>
+  </body>
+</html>
