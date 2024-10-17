@@ -9,3 +9,8 @@ Program : ReactJS for Website Developer
 - Autosave data in localstorage
 - Update data
 - Dynamic container update data
+- Random image generator using api
+
+
+## Live Page
+https://nmatech.github.io/Assignment4H8_NadindraMaulanaAziz/
